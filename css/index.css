@@ -50,13 +50,13 @@ button:hover {
     text-align: center;
 }
 
-/* .headers {
+.headers {
     display: flex;
-} */
+}
 
 .settings {
     width: 258px;
-    height: 310px;
+    /* height: 310px; */
     background-color: hsl(0, 0%, 92%);
     text-align: center;
     /* display: inline-block; */
