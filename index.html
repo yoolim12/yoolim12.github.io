@@ -1,1 +1,267 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="before-login">
+        <p style="margin: 0px;">Hello</p>
+        <p style="margin: 0px;">What's your name?</p>
+        <form id="login-form">
+            <input required type="text" id="username" />
+            <br />
+            <button>Login</button>
+        </form>
+    </div>
+    <div class="after-login">
+        <div class="headers">
+            <div class="settings">
+                <div style="margin-top: 5px;">Change Background</div>
+                <div class="back-buttons">
+                    <div class="chgback" style="background: #F3BBBB;"></div>
+                    <div class="chgback" style="background: #F6F8A5"></div>
+                    <div class="chgback" style="background: #D0BBF3"></div>
+                    <div class="chgback-image">Random image</div>
+                </div>
+                <div style="margin-top: 10px;">Change Font Style</div>
+                <div class="font-buttons">
+                    <div class="chgfont" style="font-family: Pacifico">Pacifico</div>
+                    <div class="chgfont" style="font-family: Roboto;">Roboto</div>
+                    <div class="chgfont" style="font-family: Silkscreen;">Silkscreen</div>
+                </div>
+            </div>
+            <div class="welcome-user">
+                <div>Welcome</div>
+                <div class="greeting"></div>
+            </div>
+            <div class="time-weather">
+                <div class="weather"></div>
+                <div class="clock"></div>
+            </div>
+            
+        </div>
+        <div class="footers">
+            <div class="activity mind">
+                <div class="question">
+                    <ul>
+                        <li>
+                            <div class="card" id="q0">
+                                <p>Find Your Own Character!</p>
+                                <img src="img/characters.png" alt="characters" class="start-img" />
+                                <button id="mindStart">Start</button>
+                            </div>
+                        </li>
+                      <li class="hidden">
+                        <div class="card" id="q1">
+                          <p>After hard work, I usually...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='E1' value='E' />
+                            <label for="E1">Hang out with lots of friends</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='I1' value='I' />
+                            <label for="I1">Watch Youtube in my cozy bed</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q2" >
+                            <p>You often end up doing things at the last possible moment.</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='J12' value='J' />
+                            <label for="J12">Disagree</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='P12' value='P' />
+                            <label for="P12">Agree</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q3" >
+                            <p>What attracts me more is...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='S5' value='S' />
+                            <label for="S5">The safe way I have already experienced before</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='N5' value='N' />
+                            <label for="N5">Innovative and new ways</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q4" >
+                            <p>More important thing to me is...</p>
+                            <div class="radioBtn">
+                                <input type='radio' name='mindtest' class='mindtest' id='N4' value='N' />
+                                <label for="N4">Relationship between people involved in an incident</label>
+                            </div>
+                            <div class="radioBtn">
+                                <input type='radio' name='mindtest' class='mindtest' id='S4' value='S' />
+                                <label for="S4">Truth of an incident</label>
+                            </div>
+                          
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q5">
+                          <p>Most people think of me as...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='I2' value='I' />
+                            <label for="I2">A prudent and thoughtful person</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='E2' value='E' />
+                            <label for="E2">An active and open minded person</label>
+                          </div>                          
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q6" >
+                            <p>I'm more likely to be...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='S6' value='S' />
+                            <label for="S6">A practical person</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='N6' value='N' />
+                            <label for="N6">An ingenius and creative person</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q7" >
+                            <p>I am a person with...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='T7' value='T' />
+                            <label for="T7">Fair and right attitude</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='F7' value='F' />
+                            <label for="F7">Warm and kind attitude</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q8" >
+                            <p>You are more inclined to...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='T8' value='T' />
+                            <label for="T8">Follow your head than your heart.</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='F8' value='F' />
+                            <label for="F8">follow your heart than your head.</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q9">
+                            <p>I prefer going...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='J10' value='J' />
+                            <label for="J10">On thoroughly planned trip</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='P10' value='P' />
+                            <label for="P10">On impromptu trips</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q10" >
+                            <p>Your happiness comes more from...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='T9' value='T' />
+                            <label for="T9">Your own accomplishments.</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='F9' value='F' />
+                            <label for="F9">Helping others accomplish things</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q11" >
+                            <p>You like to use organizing tools like schedules and lists.</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='J11' value='J' />
+                            <label for="J11">Agree</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='P11' value='P' />
+                            <label for="P11">Disagree</label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="hidden">
+                        <div class="card" id="q12">
+                            <p>When having a conversation, I...</p>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='E3' value='E' />
+                            <label for="E3">am a talkative person</label>
+                          </div>
+                          <div class="radioBtn">
+                            <input type='radio' name='mindtest' class='mindtest' id='I3' value='I' />
+                            <label for="I3">don't talk a lot when not needed</label>
+                          </div>
+                        </div>
+                      </li>
+                      
+                      <li class="hidden">
+                        <div class="card" id="result" >
+                
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="activity my-todo">
+                <form id="todo-form">
+                    <input required type="text" id="todo" placeholder="Write a To Do and Press Enter To Confirm" />
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="activity random-game">
+                <form id="gameForm">
+                    <p>Guess the number Nico is Thinking!</p>
+                    <img src="img/nico1.jpg" alt="nico1" />
+                    <p>From 1 to</p>
+                    <input required type="number" min="2" id="maxNum" />
+                    <br />
+                    <button>Start</button>
+                </form>
+                <form class="game-start hidden">
+                    <div class="testtest">
+                        <span>Guess the Number : </span>
+                        <input required type="number" min="1" id="guessNum" style="width: 100px;"/>
+                        <button>Guess</button>
+                    </div>
+                    <div class="result">
+                        <img id="nico2" src="img/nico1.jpg" alt="nico2" />
+                        <!-- <p id="res1"></p> -->
+                        <h2 id="res2"></h2>
+                        <!-- <p id="res3"></p> -->
+                        <h2 id="res4"></h2>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/mindtest.js"></script>
+    <script src="js/todos.js"></script>
+    <script src="js/randomGame.js"></script>
+</body>
+</html>

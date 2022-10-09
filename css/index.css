@@ -1,0 +1,261 @@
+body {
+    background: #F3BBBB;
+    /* background: url('../img/backgroundImg1.jpeg'); */
+    /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Pacifico";
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border-radius: 50px;
+    border-style: none;
+    background: #92C9E8;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #5caede;
+}
+
+.hidden {
+    display: none;
+}
+
+.before-login {
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+    padding-top: 15%;
+    /* margin: auto; */
+    font-size: 2rem;
+}
+
+#username {
+    border: none;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* .headers {
+    display: flex;
+} */
+
+.settings {
+    width: 258px;
+    height: 310px;
+    background-color: hsl(0, 0%, 92%);
+    text-align: center;
+    /* display: inline-block; */
+    float: left;
+}
+
+.chgback {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 0.5rem;
+}
+
+.chgback:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.chgback-image {
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.chgback-image:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.chgfont {
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chgfont:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.welcome-user {
+    display: inline-block;
+    height: 310px;
+    width: 850px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.time-weather {
+    /* display: inline-block; */
+    float: right;
+    font-size: 1.5rem;
+}
+
+.footers {
+    margin-top: 50px;
+    
+    /* footers의 자식 태그인 activity가 inline-block이므로 text-align을 통해 중앙 정렬. 
+    margin: auto는 display: block일 때 부모 태그가 아닌 본인의 태그에 적용하면 된다. */
+    text-align: center; 
+
+    display: flex;
+    padding-left: 70px;
+}
+
+.activity {
+    /* display: inline-block; */
+    /* display: inline-grid; */
+    background: hsl(0, 0%, 92%);
+    width: 400px;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+/* mindtest css start */
+.start-img {
+    width: 300px;
+    height: 300px;
+}
+
+/* #mindStart {
+    border-radius: 50px;
+    border-style: none;
+    background: #92C9E8;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#mindStart:hover {
+    background: #5caede;
+} */
+
+.card {
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    /* background-color: hsl(0, 0%, 92%); */
+    padding-top: 10px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + label {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+input[type=radio] + label:hover {
+    /* background-color: rgba(0, 255, 255, 0.661); */
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+input[type=radio] + label:active {
+    border: 5px solid red;
+}
+
+#res {
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 50px;
+}
+
+#res:hover {
+    background-color: rgba(0, 255, 255, 0.661);
+    cursor: pointer;
+}
+
+#mindImg {
+    width: 250px;
+    height: 300px;
+}
+/* mindtest css end */
+
+/* todo css start */
+#todo-list {
+    overflow: scroll;
+}
+
+#todo {
+    border: none;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* .delBtn {
+    border-radius: 50px;
+    border-style: none;
+    background: #92C9E8;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.delBtn:hover {
+    background: #5caede;
+} */
+/* todo css end */
+
+
+/* randomgame css start */  
+  .game-card {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  #maxNum, #guessNum {
+    border: none;
+    height: 30px;
+    text-align: center;
+  }
+
+  .testtest {
+    margin-top: 10px;
+  }
+
+  .result {
+    margin-top: 40px;
+  }
+/* randomgame css end */
