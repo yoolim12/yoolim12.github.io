@@ -161,7 +161,7 @@ mindtest.forEach(elem => elem.addEventListener("click", function(event) {
 function testResult() {
     var res = ei[ei_cnt.indexOf(Math.max(...ei_cnt))] + sn[sn_cnt.indexOf(Math.max(...sn_cnt))]
       + tf[tf_cnt.indexOf(Math.max(...tf_cnt))] + jp[jp_cnt.indexOf(Math.max(...jp_cnt))];
-    console.log(res);
+    
     const aTag = document.createElement('a');
     aTag.id = "imgdown";
     aTag.classList.add(HIDDEN_CLASSNAME);
