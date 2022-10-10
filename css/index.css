@@ -209,6 +209,7 @@ input[type=radio] + label:active {
 /* todo css start */
 #todo-list {
     overflow: scroll;
+    height: 420px;
 }
 
 #todo {
